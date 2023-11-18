@@ -1,0 +1,14 @@
+<script>
+  function calculateHeight() {
+    height = document.getElementById("height").value;
+    document.getElementById("output").textContent=height+"inches";
+  }
+</script>
+<form onsubmit=calculateHeight()>
+  <label for=age>Age:</label>
+  <input id=age type=number />
+  <label for=height>Height (in inches)</label>
+  <input id=height type=number />
+</form>
+<textarea readonly id=output></textarea>
+  
