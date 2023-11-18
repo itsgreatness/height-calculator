@@ -1,7 +1,8 @@
 <script>
   function calculateHeight() {
     height = document.getElementById("height").value;
-    document.getElementById("output").textContent=height+"inches";
+    document.getElementById("output").textContent=height+" inches";
+    return false;
   }
 </script>
 <form onsubmit=calculateHeight()>
